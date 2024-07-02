@@ -2,8 +2,6 @@ FROM node:18-alpine
 
 WORKDIR /app
 
-RUN sudo 12314
-
 COPY . .
 
 RUN yarn install --production
