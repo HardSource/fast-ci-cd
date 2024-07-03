@@ -29,3 +29,4 @@ jobs:
         with:
           push: true
           tags: hardsource/fast-ci:${{ github.event.number == 0 && 'latest' || format('PR-{0}', github.event.number) }}
+
