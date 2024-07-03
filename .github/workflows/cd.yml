@@ -26,7 +26,7 @@ jobs:
     - name: Deploy service
       uses: appleboy/ssh-action@v1.0.3
       with:
-        host: ${{ github.event.inputs.envronment == 'prod' && '34.151.251.228' || '34.95.214.102' }} 
+        host: ${{ github.event.inputs.envronment == 'prod' && '34.151.249.172' || '35.198.28.85' }} 
         username: wlfj
         key: ${{ secrets.SSH_KEY }}
         port: 22
